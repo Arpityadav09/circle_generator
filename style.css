@@ -1,0 +1,23 @@
+#redo,#undo,#reset{
+    font-size: 15px;
+    height: 40px;
+    width: 100px;
+    background: transparent;
+    border-radius: 20px;
+    border: 1.5px solid rgb(0, 0, 255);
+    margin: 5px;
+
+}
+#redo:hover,#undo:hover,#reset:hover{
+    background-color: blue;
+    color: #fff;
+}
+.circle{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+}
+body{
+    height: 100vh
+}
